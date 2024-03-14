@@ -6,7 +6,7 @@ class Program
     static void Main()
     {
         // Replace "your_connection_string_here" with your actual connection string
-        string connectionString = "server=localhost;uid=root;pwd=nikith@2003;database=student;";
+        string connectionString = "server=localhost;uid=root;pwd=//your password;database=//your database name;";
 
         // Create a MySqlConnection object with the connection string
         using (MySqlConnection connection = new MySqlConnection(connectionString))
